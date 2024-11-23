@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "PassUsingModel";
+}
+
+@model _932220.titarenko.nikita.lab11.Models.CalcModel
+
+<div>
+    <h1 class="display-4"><b>PassUsingModel</b></h1>
+    <div><b>Rand Value First : @Model.first</b></div>
+    <div><b>Rand Value Second : @Model.second</b></div>
+    <div><b>Add :</b><br />@Model.first + @Model.second = @Model.add</div>
+    <div><b>Sub :</b><br />@Model.first - @Model.second = @Model.sub</div>
+    <div><b>Mult :</b><br />@Model.first * @Model.second = @Model.mult</div>
+    <div><b>Div :</b><br />@Model.first / @Model.second = @Model.div</div>
+</div>
